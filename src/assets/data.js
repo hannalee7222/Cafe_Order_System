@@ -45,6 +45,7 @@ const menu = {
       description: '딸기와 우유를 얼음과 함께 갈아만든 음료',
       price: 5500,
       img: images.strawberry,
+      allowTemperature: ['ICE'], //아이스만 가능
     },
     {
       id: 6,
@@ -52,6 +53,7 @@ const menu = {
       description: '생과일 바나나와 함께 갈아 만든 음료',
       price: 5500,
       img: images.banana,
+      allowTemperature: ['ICE'], //아이스만 가능
     },
     {
       id: 7,
@@ -66,7 +68,7 @@ const menu = {
 const options = {
   온도: ['HOT', 'ICE'],
   진하기: ['연하게', '보통', '진하게'],
-  사이즈: ['small', 'medium', 'large'],
+  사이즈: ['Tall', 'Grande', 'Venti'],
 };
 
 const data = { menu, options };

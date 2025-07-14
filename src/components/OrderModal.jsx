@@ -30,7 +30,13 @@ function OrderModal({ cart, setCart, modalMenu, setModalOn }) {
                   options={options}
                   setOptions={setOptions}
                   name={el}
-                  itemOptions={itemOptions[el]}
+                  itemOptions={
+                    el === '온도' && modalMenu.allowTemperature
+                      ? itemOptions[el].filter((opt) =>
+                          modalMenu.allowTemperature.includes(opt)
+                        )
+                      : itemOptions[el]
+                  }
                 />
               ))}
             </ul>
