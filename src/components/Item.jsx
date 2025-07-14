@@ -3,8 +3,8 @@ function Item({ item, clickHandler }) {
     <li
       className="item"
       onClick={() => {
-        console.log('✅ 클릭됨:', item.name); // 여기에 추가
-        clickHandler(); // 원래 코드
+        console.log('✅ 클릭됨:', item.name);
+        clickHandler();
       }}
     >
       <img src={item.img} alt={item.name} />

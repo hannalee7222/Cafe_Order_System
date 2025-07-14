@@ -3,6 +3,9 @@ import Item from './Item';
 import OrderModal from './OrderModal';
 
 function Menu({ menu, cart, setCart }) {
+  const [modalOn, setModalOn] = useState(false);
+  const [modalMenu, setModalMenu] = useState(null);
+
   if (!menu)
     return (
       <div style={{ textAlign: 'center', margin: '80px' }}>
@@ -10,9 +13,6 @@ function Menu({ menu, cart, setCart }) {
         메뉴 정보가 없습니다.
       </div>
     );
-
-  const [modalOn, setModalOn] = useState(false);
-  const [modalMenu, setModalMenu] = useState(null);
   const categories = Object.keys(menu);
   return (
     <>
@@ -37,7 +37,7 @@ function Menu({ menu, cart, setCart }) {
       })}
       {modalOn ? (
         <>
-          {console.log('✅ 모달 열림')} {/* 추가 */}
+          {console.log('✅ 모달 열림')}
           <OrderModal
             cart={cart}
             setCart={setCart}

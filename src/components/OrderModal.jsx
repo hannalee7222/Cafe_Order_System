@@ -48,7 +48,8 @@ function OrderModal({ cart, setCart, modalMenu, setModalOn }) {
               <button
                 onClick={() => {
                   setCart([...cart, { quantity, options, id: modalMenu.id }]);
-                  setModalOn(false);
+                  setModalOn(false); //모달 닫기
+                  console.log('장바구니에 추가됨-> ✅모달 닫힘');
                 }}
               >
                 장바구니 넣기
