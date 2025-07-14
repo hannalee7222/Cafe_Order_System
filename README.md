@@ -19,11 +19,11 @@ React와 Vite를 사용하여 구현한 스타벅스 스타일의 카페 메뉴 
 
 ### 메인 메뉴
 
-![메인 메뉴](src/assets/screenshots/mainpage.jpeg)
+![메인 메뉴](src/assets/screenshots/main-page.jpeg)
 
 ### 장바구니
 
-![장바구니](src/assets/screenshots/cart.jpeg)
+![장바구니](src/assets/screenshots/cart-page.jpeg)
 
 ---
 
