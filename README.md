@@ -38,7 +38,7 @@ React와 Vite를 사용하여 구현한 스타벅스 스타일의 카페 메뉴 
 
 ## ⚙️ 설치 및 실행 방법
 
-````bash
+```bash
 # 1. 레포지토리 클론
 git clone https://github.com/hannalee7222/Cafe_Order_System.git
 cd Cafe_Order_System
@@ -54,23 +54,8 @@ npm run dev
 ## 🚀 배포
 해당 프로젝트는 Vercel을 통해 배포되었습니다.
 
-🔗 ![배포 바로가기](https://cafe-order-system-iota.vercel.app)
+🔗 **[👉 배포 바로가기](https://cafe-order-system-iota.vercel.app)**
 
 
----
 
-## 📂 프로젝트 구조
-
-```bash
-Cafe_Order_System/
-├── public/
-├── src/
-│   ├── assets/       # 이미지 및 메뉴 데이터
-│   ├── components/   # Item, Menu, Cart, Modal 등 UI 컴포넌트
-│   ├── App.jsx
-│   └── main.jsx
-├── .gitignore
-├── index.html
-├── package.json
-└── vite.config.js
-````
+```
